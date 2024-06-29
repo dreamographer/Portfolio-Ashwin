@@ -15,8 +15,8 @@ const Navigation = () => {
        { href: "/dashboard/contact", text: "Contact" },
      ];
   return (
-    <section className="bg-[#424246] min-w-64 fixed bottom-0 left-0 backdrop-blur-3xl w-full h-16 items-center flex justify-center rounded-t-2xl opacity-85">
-      <ul className="flex text-xs justify-center gap-2 cursor-pointer">
+    <section className="bg-[#424246] min-w-64 fixed  bottom-0 backdrop-filter backdrop-blur-2xl bg-white/10 left-0  w-full h-16 items-center flex justify-center rounded-t-2xl opacity-85 xl:absolute xl:top-0 xl:left-2/4  xl:w-2/4 xl:rounded-t-none xl:rounded-bl-2xl xl:rounded-tr-2xl  ">
+      <ul className="flex text-xs md:text-base justify-center gap-2 sm:gap-5 md:gap-10 xl:gap-7 cursor-pointer">
         {links.map(link => (
           <li
             key={link.href}
