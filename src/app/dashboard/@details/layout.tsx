@@ -3,7 +3,7 @@ import React from 'react'
 
 const layout = ({ children }: { children: React.ReactNode }) => (
   <>
-    <div className="relative  xl:min-w-[930px] ">
+    <div className="relative  xl:w-[1000px] ">
       {children}
       <Navigation />
     </div>

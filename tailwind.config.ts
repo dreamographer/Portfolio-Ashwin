@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         "regal-blue": "#243c5a",
-        "orange-yellow": "#ffdb70"
+        "orange-yellow": "#ffdb70",
+        "yellow-grad": "#202022",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

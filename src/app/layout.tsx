@@ -15,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${SpaceMono.className}`}>
-        <ThemeProvider  defaultTheme="dark" enableSystem>
-        {children}
+      <body className={` ${SpaceMono.className} `}>
+        <ThemeProvider defaultTheme="dark" enableSystem>
+          {children}
         </ThemeProvider>
       </body>
     </html>
