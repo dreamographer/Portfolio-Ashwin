@@ -1,12 +1,24 @@
-import React from 'react'
-
+"use client";
+import React from "react";
+import { motion } from "framer-motion";
 const page = () => {
   return (
     <section className="bg-[#1e1e1f] border-[#383838] border min-w-64 w-full xl:p-10 p-5 h-screen  rounded-2xl ">
-      <h1 className="md:text-5xl text-3xl">Blog</h1>
-      <div className="h-1 border-2 w-20 border-orange-yellow  rounded-lg  my-5" />
+      <motion.h1
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        className="md:text-5xl text-3xl"
+      >
+        Blog
+      </motion.h1>
+      <motion.div
+        initial={{ width: 0 }}
+        animate={{ width: "5rem" }}
+        className="h-1 border-2  border-orange-yellow  rounded-lg  my-5"
+      />
     </section>
   );
-}
+};
 
-export default page
+export default page;

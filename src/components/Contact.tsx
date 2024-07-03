@@ -9,7 +9,6 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <>
-      {" "}
       <motion.div
         key="details"
         initial={{ y: -20, opacity: 0, height: 0 }}
