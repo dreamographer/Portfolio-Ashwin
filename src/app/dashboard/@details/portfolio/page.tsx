@@ -14,7 +14,7 @@ const page = () => {
       </motion.h1>
       <motion.div
         initial={{ width: 0 }}
-        animate={{ width: "1rem" }}
+        animate={{ width: "15rem" }}
         className="h-1 border-2  border-orange-yellow  rounded-lg  my-5"
       />
     </section>

@@ -8,7 +8,7 @@ const Info = () => {
   const [openInfo,setOpenInfo]=useState(true)
   return (
     <>
-      <section className="bg-[#1e1e1f]  flex flex-col xl:py-6  p-3 px-6 relative border-[#383838]  border shrink-on-change min-w-64 transition-all  delay-75  xl:h-full h-full  rounded-2xl ">
+      <section className="dark:bg-[#1e1e1f]  flex flex-col xl:py-6  p-3 px-6 relative dark:border-[#383838]  border shrink-on-change min-w-64 transition-all  delay-75  xl:h-full h-full  rounded-2xl ">
         <div className="flex xl:flex-col  justify-start items-center">
           <div className="bg-[#424246]   sm:min-w-28 flex justify-center overflow-hidden min-w-20 h-20 sm:h-28 rounded-2xl">
             <Image
@@ -19,7 +19,7 @@ const Info = () => {
               className="w-full h-full object-cover "
             />
           </div>
-          <div className=" flex-grow justify-center md:justify-start p-2 sm:p-8 gap-5 flex flex-col items-center sm:items-start">
+          <div className=" flex-grow justify-center md:justify-center p-2  sm:p-4 gap-5 flex flex-col items-center ">
             <h1 className="sm:text-3xl font-medium px-3">Ashwin KV</h1>
             <div className="bg-[#2d2d30da]  text-xs min-w-max px-3 py-1 rounded-md  xl:text-center">
               Web Developer

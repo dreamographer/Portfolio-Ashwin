@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/utils/next-theme-provider";
+import { ThemeProvider } from "@/components/next-theme-provider";
 const SpaceMono = Space_Mono({ weight: "400", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Ashwin KV",
@@ -16,7 +16,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` ${SpaceMono.className} `}>
-        <ThemeProvider defaultTheme="dark" enableSystem>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           {children}
         </ThemeProvider>
       </body>

@@ -24,7 +24,7 @@ const Contact = () => {
           type: "spring",
         }}
       >
-        <div className="border-t-2 border-b-2 mt-5 border-[#383838]  flex py-3  ">
+        <div className="border-t-2 truncate border-b-2 mt-5 border-[#383838]  flex py-3  ">
           <div className="text-xs sm:text-sm flex flex-col items-start gap-5">
             <div className="flex justify-center items-center gap-5 ">
               <div className="border p-2 rounded-lg text-orange-yellow text-lg border-[#383838] ">
@@ -42,7 +42,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex justify-center items-center gap-5 ">
-              <div className="border p-2 rounded-lg text-orange-yellow text-lg border-[#383838] ">
+              <div className="dark:border p-2 rounded-lg text-orange-yellow text-lg border-[#383838] ">
                 <a href="tel:+919567454484">
                   <IoIosPhonePortrait />
                 </a>
