@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const page = () => {
   return (
-    <section className="bg-[#1e1e1f] border-[#383838] border min-w-64 w-full xl:p-10 p-5 h-screen  rounded-2xl ">
+    <section className="dark:bg-[#1e1e1f] dark:border-[#383838]  shadow-lg border min-w-64 w-full xl:p-10 p-5 h-screen  rounded-2xl ">
       <motion.h1
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}

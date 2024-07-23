@@ -6,7 +6,7 @@ import Skills from "@/components/Skills";
 const page = () => {
   return (
     <>
-      <section className="dark:bg-[#1e1e1f] bg-slate-100  flex flex-col gap-10 origin-top dark:border-[#383838] border min-w-64 w-full xl:p-10 p-5  rounded-2xl ">
+      <section className="dark:bg-[#1e1e1f] dark:border-[#383838]  shadow-lg  flex flex-col gap-10 origin-top border min-w-64 w-full xl:p-10 p-5  rounded-2xl ">
         <div>
           <ModeToggle />
           <motion.h1
@@ -39,8 +39,8 @@ const page = () => {
             contribute, learn, and grow professionally.
           </motion.p>
         </div>
-    
-          <Skills/>
+
+        <Skills />
       </section>
     </>
   );

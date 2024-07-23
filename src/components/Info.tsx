@@ -8,9 +8,9 @@ const Info = () => {
   const [openInfo,setOpenInfo]=useState(true)
   return (
     <>
-      <section className="dark:bg-[#1e1e1f]  flex flex-col xl:py-6  p-3 px-6 relative dark:border-[#383838]  border shrink-on-change min-w-64 transition-all  delay-75  xl:h-full h-full  rounded-2xl ">
+      <section className="dark:bg-[#1e1e1f] shadow-lg flex flex-col xl:py-6  p-3 px-6 relative dark:border-[#383838]  border shrink-on-change min-w-64 transition-all  delay-75  xl:h-full h-full  rounded-2xl ">
         <div className="flex xl:flex-col  justify-start items-center">
-          <div className="bg-[#424246]   sm:min-w-28 flex justify-center overflow-hidden min-w-20 h-20 sm:h-28 rounded-2xl">
+          <div className="dark:bg-[#424246] bg-slate-200   sm:min-w-28 flex justify-center overflow-hidden min-w-20 h-20 sm:h-28 rounded-2xl">
             <Image
               src="/Ashwin.png"
               height={100}
@@ -20,8 +20,8 @@ const Info = () => {
             />
           </div>
           <div className=" flex-grow justify-center md:justify-center p-2  sm:p-4 gap-5 flex flex-col items-center ">
-            <h1 className="sm:text-3xl font-medium px-3">Ashwin KV</h1>
-            <div className="bg-[#2d2d30da]  text-xs min-w-max px-3 py-1 rounded-md  xl:text-center">
+            <h1 className="sm:text-2xl font-medium px-3">Ashwin KV</h1>
+            <div className="dark:bg-[#2d2d30da] shadow-md bg-slate-50  text-xs min-w-max px-3 py-1 rounded-md  xl:text-center">
               Web Developer
             </div>
           </div>
@@ -29,7 +29,7 @@ const Info = () => {
             onClick={() => {
               setOpenInfo((prev)=>!prev);
             }}
-            className="xl:hidden absolute top-0 rounded-bl-xl flex items-center gap-2 border-[#383838] border-l border-b  p-2 right-0 text-md text-orange-yellow "
+            className="xl:hidden absolute top-0 rounded-bl-xl flex items-center gap-2 dark:border-[#383838] border-l border-b  p-2 right-0 text-md text-orange-yellow "
           >
             <p className="md:block hidden md:text-sm ">Show Contacts</p>
             {openInfo ? <FaChevronUp /> : <FaChevronDown />}

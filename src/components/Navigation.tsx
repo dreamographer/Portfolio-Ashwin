@@ -14,13 +14,15 @@ const Navigation = () => {
        { href: "/dashboard/contact", text: "Contact" },
      ];
   return (
-    <section className="dark:bg-[#424246] dark:border-[#383838] border min-w-64 fixed  bottom-0 backdrop-filter dark:backdrop-blur-2xl dark:bg-white/10 left-0  w-full h-16 items-center flex justify-center rounded-t-2xl opacity-85 xl:absolute xl:top-0 xl:left-2/4  xl:w-2/4 xl:rounded-t-none xl:rounded-bl-2xl xl:rounded-tr-2xl  ">
+    <section className="dark:bg-[#424246] bg-slate-400 text-white  dark:border-[#383838] border min-w-64 fixed  bottom-0 backdrop-filter dark:backdrop-blur-2xl dark:bg-white/10 left-0  w-full h-16 items-center flex justify-center rounded-t-2xl opacity-85 xl:absolute xl:top-0 xl:left-2/4  xl:w-2/4 xl:rounded-t-none xl:rounded-bl-2xl xl:rounded-tr-2xl  ">
       <ul className="flex text-xs md:text-base justify-center gap-2 sm:gap-5 md:gap-10 xl:gap-7 cursor-pointer">
         {links.map(link => (
           <li
             key={link.href}
-            className={`hover:text-orange-yellow ${
-              pathname === link.href ? "text-orange-yellow" : ""
+            className={` ${
+              pathname === link.href
+                ? "text-orange-yellow"
+                : "hover:text-slate-50/70"
             }`}
           >
             <Link href={link.href}>{link.text}</Link>

@@ -24,10 +24,10 @@ const Contact = () => {
           type: "spring",
         }}
       >
-        <div className="border-t-2 truncate border-b-2 mt-5 border-[#383838]  flex py-3  ">
+        <div className="border-t-2 truncate border-b-2 mt-5 dark:border-[#383838]  flex py-3  ">
           <div className="text-xs sm:text-sm flex flex-col items-start gap-5">
             <div className="flex justify-center items-center gap-5 ">
-              <div className="border p-2 rounded-lg text-orange-yellow text-lg border-[#383838] ">
+              <div className="border shadow-md dark:shadow-slate-950  p-2 rounded-lg text-orange-yellow text-lg dark:border-[#383838] ">
                 <a href="mailto:ashwinkv.akv@gmail.com">
                   <MdOutlineMail />
                 </a>
@@ -42,7 +42,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex justify-center items-center gap-5 ">
-              <div className="dark:border p-2 rounded-lg text-orange-yellow text-lg border-[#383838] ">
+              <div className="border shadow-md dark:shadow-slate-950  p-2 rounded-lg text-orange-yellow text-lg dark:border-[#383838] ">
                 <a href="tel:+919567454484">
                   <IoIosPhonePortrait />
                 </a>
@@ -55,7 +55,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex justify-center items-center gap-5 ">
-              <div className="border p-2 rounded-lg text-orange-yellow text-lg border-[#383838] ">
+              <div className="border shadow-md dark:shadow-slate-950  p-2 rounded-lg text-orange-yellow text-lg dark:border-[#383838] ">
                 <SlCalender />
               </div>
               <div>
@@ -64,7 +64,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex justify-center items-center gap-5 ">
-              <div className="border p-2 rounded-lg text-orange-yellow text-lg border-[#383838] ">
+              <div className="border shadow-md dark:shadow-slate-950  p-2 rounded-lg text-orange-yellow text-lg dark:border-[#383838] ">
                 <a
                   href="https://maps.app.goo.gl/ZrWtD2mYekZKdEhe7"
                   target="blank"
@@ -86,7 +86,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="px-4 py-3 text-[#d6d6d6] flex justify-start gap-5 item-center text-xl">
+        <div className="px-4 py-3 dark:text-[#d6d6d6] text-slate-400 flex justify-start gap-5 item-center text-xl">
           <a
             className="hover:text-orange-yellow"
             href="https://www.linkedin.com/in/ashwin-kv/"
